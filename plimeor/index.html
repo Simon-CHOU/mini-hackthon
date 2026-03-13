@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Terminal Time Machine</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="toolbar">
+        <button id="recordBtn" type="button">Record</button>
+        <button id="replayBtn" type="button">Replay</button>
+        <span id="statusText">Idle</span>
+      </header>
+      <section class="timeline">
+        <span id="elapsedLabel">00:00</span>
+        <div class="timeline-track">
+          <div id="timelineFill"></div>
+        </div>
+        <span id="durationLabel">00:00</span>
+      </section>
+      <section id="terminalRoot" class="terminal-shell"></section>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

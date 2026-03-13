@@ -1,0 +1,13 @@
+{
+  "name": "plimeor-web-terminal-time-machine",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ./index.html --console",
+    "build": "bun build ./index.html --minify --outdir ../dist/plimeor",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@xterm/xterm": "^6.0.0"
+  }
+}
