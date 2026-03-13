@@ -79,9 +79,14 @@ body {
 .terminal-shell {
   min-height: 420px;
   padding: 20px;
+  overflow: hidden;
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   background:
     linear-gradient(180deg, rgba(17, 20, 27, 0.96), rgba(3, 5, 9, 0.98)),
     #000;
+}
+
+.terminal-shell .xterm {
+  height: 100%;
 }
