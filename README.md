@@ -1,7 +1,3 @@
-
-
-
-```markdown
 # 🚀 Mini-Hackathon: Web Terminal Time Machine (网页终端时光机 MVP)
 
 ## 🎯 赛题背景 / Background
@@ -49,4 +45,3 @@
 5. **提交 PR**：向原仓库提交 Pull Request (PR)，标题格式为 `[Hackathon] 队伍名称 - Web Terminal Time Machine`。
 
 **Ready? Set your timers for 25 minutes... Vibe Code!**
-```
